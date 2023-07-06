@@ -4,9 +4,9 @@ SUBDIRS = lib util pic
 ACLOCAL_AMFLAGS = -I m4
 
 # Avoid trouble if your system doesn't have xmlto.
-if BUILD_DOC
-SUBDIRS += doc
-endif
+#if BUILD_DOC
+#SUBDIRS += doc
+#endif
 
 EXTRA_DIST = Makefile.unx \
 	     autogen.sh \
