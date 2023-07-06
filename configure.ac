@@ -47,7 +47,6 @@ AC_CONFIG_FILES([
 util/Makefile
 lib/Makefile
 Makefile
-doc/Makefile
 pic/Makefile
 ])
 AC_OUTPUT
